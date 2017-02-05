@@ -17,14 +17,10 @@ class GuessingGame {
 
     lower() {
         this.MaxValue = this.CenterValue;
-        this.CenterValue = Math.round((this.MinValue + this.MaxValue)/2);
-        return this.CenterValue;
     }
 
     greater() {
         this.MinValue = this.CenterValue;
-        this.CenterValue = Math.round((this.MinValue + this.MaxValue)/2);
-        return this.CenterValue;
     }
 }
 
